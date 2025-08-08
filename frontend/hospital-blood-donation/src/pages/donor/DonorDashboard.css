@@ -1,0 +1,10 @@
+.dashboard-content {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff0f6; /* very light pink */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(216, 27, 96, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a4a4a;
+}

@@ -1,0 +1,42 @@
+.hospital-page-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f7f1f8; /* very light purple-pink */
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(168, 99, 143, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5a3a50;
+}
+
+.interactive-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.interactive-block {
+  background: white;
+  flex: 1 1 250px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(168, 99, 143, 0.1);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+}
+
+.interactive-block:hover,
+.interactive-block:focus {
+  box-shadow: 0 6px 25px rgba(168, 99, 143, 0.3);
+}
+
+.interactive-block h3 {
+  margin: 0 0 8px;
+  color: #a8457f;
+}
+
+.interactive-block p {
+  margin: 3px 0;
+  color: #6e4a61;
+}

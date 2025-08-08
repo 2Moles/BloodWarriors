@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container fills entire viewport */
+.home-container {
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(to right, #fce4ec, #f8bbd0, #f48fb1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* No padding so it fills whole screen */
+  padding: 0;
+}
+
+/* Content fills full container */
+.content {
+  background-color: #ffe6f0;
+  width: 100%;
+  height: 100%;
+
+  padding: 40px;
+
+  /* Remove border-radius and shadows so it looks flush */
+  border-radius: 0;
+  box-shadow: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #d81b60;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #444;
+  margin-bottom: 30px;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  min-width: 150px;
+}
+
+.donor-btn {
+  background-color: #e91e63;
+}
+
+.donor-btn:hover {
+  background-color: #c2185b;
+}
+
+.hospital-btn {
+  background-color: #3f51b5;
+}
+
+.hospital-btn:hover {
+  background-color: #303f9f;
+}

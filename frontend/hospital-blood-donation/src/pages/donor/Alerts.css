@@ -1,0 +1,41 @@
+.alerts-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff0f6; /* light pink */
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(216, 27, 96, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a4a4a;
+}
+
+.alerts-container h2 {
+  color: #d81b60; /* pink accent */
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(216, 27, 96, 0.1);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.blog-card:hover {
+  box-shadow: 0 6px 20px rgba(216, 27, 96, 0.2);
+}
+
+.blog-card h3 {
+  margin-top: 0;
+  color: #b01445; /* darker pink */
+  font-weight: 700;
+}
+
+.blog-card p {
+  color: #555;
+  line-height: 1.4;
+}
